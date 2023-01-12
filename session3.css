@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+    background-color: blanchedalmond;
+}
+
+.items li{
+    list-style: none;
+    position: relative;
+}
+.tems li:hover {
+    background-color:yellow;
+    cursor: pointer;
+}
+
+.items > li {
+    display: inline-block;
+    padding: 15 px 20 px;
+    border: 1px solid black;
+}
+
+.items ul{
+    display: none;
+    position:absolute;
+    border: 1px solid black;
+    background-color: aqua;
+    width: 100%;
+    left:0;
+    top:50px;
+}
+
+.items ul > li{
+    color:whitesmoke;
+    padding:5px;
+}

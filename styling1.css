@@ -1,0 +1,35 @@
+h1{
+    color: pink;
+}
+
+div{
+    text-decoration: underline;
+    border: 1px solid black;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: dotted;
+
+    color:aqua;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: line-through dashed black;
+    text-transform: uppercase;
+
+
+}
+
+
+h2{
+    text-decoration: underline;
+    border: 1px solid green;
+}
+
+img{
+    border: 1px color rgb(8, 79, 59);
+    width:22%;
+    height:auto;
+    object-fit: cover;
+
+}
